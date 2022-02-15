@@ -261,7 +261,7 @@ footer img {
 @media all and (max-width:900px)  {
 
   .titulo h2 {
-    display: none;
+    display: none !important;
   }
   
   iframe , .cuerpoFormulario {
