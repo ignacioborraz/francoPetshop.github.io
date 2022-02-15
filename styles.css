@@ -260,6 +260,10 @@ footer img {
 
 @media all and (max-width:900px)  {
 
+  .titulo h2 {
+    display: none;
+  }
+  
   iframe , .cuerpoFormulario {
     width: 340px;
   }
