@@ -264,6 +264,10 @@ footer img {
     display: none !important;
   }
   
+  .titulo input , .titulo select{
+    width: 50%
+  }
+  
   iframe , .cuerpoFormulario {
     width: 340px;
   }
