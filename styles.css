@@ -1,0 +1,325 @@
+/* NORMALIZADO DE ESTILOS */
+*:(header button):not(header img):not(header h1):not(header h2):not(header a):not(footer h5):not(.formulario):not(main .carousel-item) {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 solid !important;
+  box-sizing: border-box !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 600 !important;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh !important;
+  overflow-x: hidden;
+  color: black;
+  background-image: url(img/Images/imagenFondo2.webp);
+  background-size: cover;
+  background-position: 50%;
+}
+
+/* HEADER */
+.botonera {
+  background-color: #ff922c !important;
+}
+
+.logo {
+  width: 4rem;
+}
+
+.carrito {
+  width: 2.5rem;
+}
+
+a h1 , a h2 {
+  color: white !important;
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: bolder !important;
+  margin: 0 !important;
+}
+
+/* MAIN */
+.titulo {
+  color: black;
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: bolder;
+  height: 60px;
+}
+
+input.buscar, select.seleccionar {
+  width: 15%;
+  height: 50px;
+  background: rgba(240, 205, 172, 0.74);
+  border:solid #393939;
+  border-radius: 5px 5px 5px 5px;
+  color:#5c5b5b;
+  font-size: 16px;
+  padding: 5px;
+ } 
+
+/* carousel */
+.w-65 {
+  width: 65%;
+}
+
+.botonCarrousel {
+  background-color: rgba(37, 32, 32, 0.384);
+  width: 5%;
+}
+
+.carousel-inner, #carouselExampleControls {
+  display: flex !important;
+}
+
+ /*CARD*/
+ .container {
+  width: 480px !important;
+  height: 650px !important;
+}
+
+.containerCarrito {
+  width: 480px !important;
+  height: 520px !important;
+}
+
+.card{
+  width: 100% !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px !important;
+  overflow: hidden !important;
+  background-color: #fff !important;
+  box-shadow: opx 1px 10px rgba(0,0,0,.2) !important;
+  cursor: default !important;
+  transition: all 400ms ease !important;
+  margin: 10px !important;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0,0,0,.4) !important;  
+}
+
+.img-card{
+  width: 250px !important;
+  transform: translateY(-3%) !important;
+}
+
+.card .contenidoCard p{
+  line-height: 1.5 !important;
+  color: grey !important;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+.card .contenidoCard h3{
+  font-weight: 500 !important;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contenidoCard button , .boton {
+  width: 100% !important;
+  font-weight: 600 !important;
+  text-decoration: none!important;
+  color: #ff922c;
+  display: inline-block !important;
+  padding: 10px !important;
+  border: 1px solid #ff922c !important;
+  border-radius: 4px !important;
+  transition:all 400ms ease !important;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card .contenidoCard button:hover , .boton:hover{
+  background-color: #ff922c!important;
+  color: #fff !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  padding: 0.75rem;
+  margin: 0.25rem;
+}
+
+.botonCantidad {
+  height: 2rem;
+  width: 20rem;
+  text-align: center;
+  background-color: #ff922c;
+}
+
+
+/*FORMULARIO*/
+input:not([type="checkbox"])#mascotasChbox{
+  border: black 2 px;
+  height: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.cuerpoFormulario{
+  width: 600px;
+  height: 600px;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+
+.formulario {
+  width: 100%;
+  padding: 16px;
+  border-radius: 10px;
+  margin: auto;
+  background-color: rgba(204, 204, 204, 0.794);
+  font-size: 20px;
+  color: black;
+}
+
+fieldset{
+  border: none;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: space-between !important;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 3px 10px;
+  border: 1px solid #f6f6f6;
+  border-radius: 3px;
+  background-color: #f6f6f6;
+  margin: 8px 0;
+}
+
+.contieneCheckbox{
+  display:flex;
+}
+
+iframe {
+  opacity: 0.7 !important;
+}
+
+iframe:hover {
+  opacity: 0.9 !important;
+}
+
+/* FOOTER */
+footer , .titulo {
+  color: rgb(0, 0, 0);
+  background-color: rgba(221, 146, 75, 0.7);
+}
+
+footer h5 {
+  font-family: 'Comfortaa', cursive !important;
+  font-weight: bolder !important;
+  margin: 0 !important;
+}
+
+footer p {
+  margin: 0 !important;
+}
+
+footer img {
+  height: 25px;
+}
+
+.elementos {
+  height: 30px;
+}
+
+#stock {
+  width: 20rem;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white !important;
+  background-color: rgba(221, 146, 75) !important;
+}
+
+@media all and (max-width:1250px)  {
+
+  iframe , .cuerpoFormulario {
+    width: 440px;
+  }
+}
+
+@media all and (max-width:900px)  {
+
+  iframe , .cuerpoFormulario {
+    width: 340px;
+  }
+
+  #carouselExampleControls {
+    width: 100% !important;
+  }
+
+  footer h5 , footer p {
+    font-size: 13px;
+  }
+
+  .elementos {
+    height: 20px;
+  }
+
+  footer img {
+    height: 13px;
+  }
+}
+
+
+@media all and (max-width:750px)  {
+
+  .formularioYmapa {
+    flex-wrap: wrap !important;
+  }  
+
+  .mapa {
+    margin-top: 0 !important;
+  }
+
+  iframe {
+    height: 340px;
+  }
+
+  .logo {
+    display: none !important;
+  } 
+  
+  #redes {
+    display: none !important;
+  }
+}
+
+@media all and (max-width:580px)  {
+
+  header h1 {
+    display: none;
+  };
+
+  footer h5 , footer p {
+      font-size: 10px !important;
+    }
+  
+    .elementos {
+      height: 17px;
+    }
+  
+    footer img {
+      height: 10px;
+    }
+}

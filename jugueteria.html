@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FRANCO - JUGUETERIA</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body class="d-flex flex-column justify-content-center align-items-center">
+        <header class="w-100">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light botonera p-2">
+                <div class="container-fluid w-100 d-flex">
+                    <img class="logo m-3" src="img/Images/pixlr-bg-result.png" alt="logo">
+                    <div class="nav-item flex-grow-1"><a class="nav-link d-flex flex-wrap" href="index.html"><h1 class="h2 me-3">FRANCO</h1><h2 class="me-3">Tienda De Mascotas</h2></a></div>
+                    <button class="navbar-toggler p-1 m-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="navbar-nav d-flex justify-content-end align-items-center w-100"> 
+                            <a class="nav-link me-4 active" aria-current="page" href="#"><h3 class="m-0 d-flex justify-content-end align-items-center">JUGUETERIA</h3></a>
+                            <a class="nav-link me-4" href="farmacia.html"><h3 class="m-0 d-flex justify-content-end align-items-center">FARMACIA</h3></a>
+                            <a class="nav-link me-4" href="formulario.html"><h3 class="m-0 d-flex justify-content-end align-items-center">CONTACTO</h3></a>
+                            <a class="nav-link me-4" href="carrito.html"><img class="carrito" src="./img/Images/carrito.png"></a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="w-100 d-flex flex-column align-items-center flex-grow-1">
+            <div class="titulo w-100 d-flex align-items-center">
+                <input  type="text" class="buscar ms-4" name="input" id="filtroInput" placeholder="buscar">
+                <select class="seleccionar ms-4" name="precios" id="filtroSelect">
+                  <option value="0">RANGO DE PRECIOS</option>
+                  <option value="1">0-400</option>
+                  <option value="2">400-700</option>
+                  <option value="3">+700</option>
+                </select>
+                <h2 class="h4 m-4 d-flex justify-content-end align-items-center flex-grow-1">los mejores juguetes son de FRANCO!</h2> 
+            </div>
+            <section id="muestraProductos" class="d-flex flex-wrap justify-content-evenly">           
+            </section>               
+          </main>
+          <footer class="d-flex flex-wrap justify-content-around pt-2 pb-2 mt-3 w-100">
+            <div class="d-flex">
+                <h5 class="pe-3">Contactenos</h5>
+                <div>
+                    <p class="d-block elementos">📞Nro: 011256874</p>
+                    <p class="d-block elementos">🏪Direccion: Rio de Janeiro 300 (Caballito)</p>
+                    <p class="d-block elementos">📩Email: tiendademascotasFranco@gmail.com</p> 
+                </div>
+            </div>
+            <div class="d-flex" id="redes">
+                <h5 class="pe-3">Seguinos en nuestras redes sociales</h5>
+                <div class="d-block">
+                    <a href="" class="d-block elementos"><img src="img/Images/facebook.png" alt=""></a>
+                    <a href="" class="d-block elementos"><img src="img/Images/instagram.png" alt=""></a>
+                    <a href="" class="d-block elementos"><img src="img/Images/twitter.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/juguetes.js" type="text/javascript"></script>
+        <script src="js/impresionProductos.js" type="text/javascript"></script>
+    </body>
+</html>
